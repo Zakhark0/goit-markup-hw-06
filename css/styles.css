@@ -860,8 +860,8 @@ p {
 
 .checkbox-icon svg {
   position: absolute;
-  top: -1.25px;
-  left: -1.25px;
+  top: -1px;
+  left: -1px;
   fill: transparent;
   transition: fill 250ms var(--timing-function);
 }
