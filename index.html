@@ -298,7 +298,7 @@
               </svg>
             </a>
           </li>
- 
+        </ul>
       </div>
     </section>
   </main>
@@ -360,10 +360,9 @@
   <!-- ----------------------modal======================= -->
   <div data-modal class="backdrop is-hidden">
     <div class="modal">
-      <button  data-modal-close class="modal-close">
+      <button type="button" data-modal-close class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 32 32"><path d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z"></path></svg>
       </button>
-      
       <form class="form modal-form">
         <b class="modal-text">Leave your contacts and we will call you back</b>
         <div class="form-field">
@@ -393,14 +392,10 @@
             </svg>
           </span>
         </div>
-        
         <div class="form-field">
           <label class="modal-label"  for="comment">Comment</label>
           <textarea class="modal-comment" placeholder="Text input" name="comment"  id="comment"></textarea>
         </div>
-
-        
-      
         <label class="modal-label policy" > 
           <input class="checkbox" type="checkbox" name="privat-policy" id="privat-policy" value="accept">
           <span class="checkbox-icon">
@@ -408,16 +403,11 @@
               <use href="./images/icons.svg#icon-checkbox-act"></use>
             </svg>
           </span>
-          I accept the terms and conditions of th
-          <span>e
+           <span> I accept the terms and conditions of the
             <a class="policy-link" href="#">Privacy Policy</a>
           </span>
-            
         </label>
-        
-        
         <button class="modal-sub-btn" type="submit">Send</button>
-        
       </form>
     </div>
   </div>
